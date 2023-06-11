@@ -1,0 +1,170 @@
+body {
+	font-family: 'FiraGO', sans-serif;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	background-color:#3d3356;
+}
+* {margin: 0px;padding: 0px;}
+#container {
+	margin: 10px auto;
+	text-align: left;
+	width: 800px;
+}
+#main {
+	width: 800px;
+	
+}
+/******************** header ********************/
+#header {
+	width:310px;
+	height:294px;
+	margin-left:250px;
+	background-image:url(images/header.gif);
+	display:block;
+}
+#nav {
+	width:744px;
+	height:22px;
+	margin: 2px 0px 2px 25px;
+	background-color:#3d3356;
+	padding: 3px 5px 3px 1px;
+}
+#nav ul {
+}
+#nav li {
+	display:inline;
+	background-color:#3d3356;
+	width:120px;
+	height:22px;
+	float:left;
+	margin-left:4px;
+	text-align:center;
+}
+/* Zeda menu */
+#nav a {
+	width:120px;
+	height:19px;
+	font-size:15px;
+	padding-top:3px;
+	text-decoration:none;
+	color:#ffdf93;
+	font-weight:600;
+	display:block;
+    text-shadow: 1px 1px 1px blue, 2px 2px 1px red;
+
+}
+#nav a:hover {
+	color:#FFFFFF;
+	font-weight:800;
+}
+/******************** Content ********************/
+p, h1, a, span{font-family: 'FiraGO', sans-serif;}
+#content {
+	width:750px;
+	margin-left:25px;
+	background-color:#3d3356;
+}
+#left {
+	float:left;
+	width:390px;
+	display:inline;
+	margin: 20px 0px 30px 20px;
+}
+#left p {
+	font-size: 12px;
+	color: #ffcf5b;
+	padding: 5px 0px;	
+}
+#left a{
+	color: #052d4e;
+	font-weight:800;
+}
+#left a:hover{
+	color:#FFFFFF;
+}
+/* sataurebi */
+#left h1{
+	font-size: 24px;
+	color: #ffcf5b;
+	display:inline;
+	font-weight:500;
+	text-shadow: 1px 1px 1px red;
+}
+/* tarigebi */
+#left span{
+	font-size: 12px;
+	color: #7e5ecc;
+	font-weight: 300;
+	display:inline;
+	margin-left:8px;
+}
+/* marjvena lurji ylinji */
+#right {
+	float:right;
+	width:260px;
+	background-color:#5d4164;
+	color:#FFFFFF;
+	font-weight:500;
+	padding: 10px 20px;
+	margin: 30px 20px 20px 0px;
+	display:inline;
+	box-shadow: #4d3459 10px 10px 15px;
+
+}
+#right p{
+	padding: 7px 0px;
+}
+#right a{
+	color:#ffcf5b;
+	font-weight:900;
+}
+#right a:hover{
+	color: #052d4e;
+}
+.post {
+	margin-top:20px;
+}
+.post a{
+}
+
+.post a:hover{
+}
+
+.post p{
+}
+
+
+/******************** Footer ********************/
+#footer {
+	width:800px;
+	text-align:center;
+	color:#ffcf5b;
+	margin: 10px 0px;
+}
+#footer ul {
+}
+#footer li {
+	display:inline;
+	float:none;
+	text-align:center;
+}
+#footer a {
+	color:#ffcf5b;
+	font-weight:900;
+	text-decoration:none;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+#footer span {
+	display:block;
+	clear:both;
+	color:#ffcf5b;
+	margin: 10px 0px;
+}
+.clear{
+	clear:both;
+}
+
+
